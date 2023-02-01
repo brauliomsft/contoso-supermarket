@@ -22,7 +22,6 @@ jobs:
       - name: Build & Push
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: ./src/Dockerfile
+          context: ./src
           push: true
           tags: user/app:latest
