@@ -55,5 +55,7 @@ spec:
               value: "True"
           ports:
             - containerPort: 5000
+          imagePullSecrets:
+            - name: acrsecret
         - name: contosocameras
           image: azurearcjumpstart.azurecr.io/contoso-supermarket-cameras:latest
