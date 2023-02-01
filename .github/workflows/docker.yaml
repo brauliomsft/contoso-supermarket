@@ -22,8 +22,6 @@ jobs:
 
       - name: Build Docker Image
         run: docker-compose build
-        with:
-          context: ./src
 
       - name: Push Docker image to ACR
         run: |
