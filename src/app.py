@@ -14,7 +14,7 @@ def index():
     if os.environ.get('CAMERAS_ENABLED'):
         cameras_enabled = os.environ.get('CAMERAS_ENABLED') == 'True'
     
-    head_title = "Fabrikam Supermarket"
+    head_title = "Tiendas Coppel"
     if os.environ.get('HEAD_TITLE'):
         head_title = os.environ.get('HEAD_TITLE')
 
