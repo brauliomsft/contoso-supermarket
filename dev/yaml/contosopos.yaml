@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: contosopos
+  name: supermarketapp
   namespace: contosopos
   labels:
     app: contosopos
@@ -13,13 +13,13 @@ spec:
   - name: http
     port: 80
     targetPort: 5000
-  type: ClusterIP
+  type: LoadBalancer
 ---  
 # Create Contoso Supermarket Deployment
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: contosopos
+  name: supermarketapp
   namespace: contosopos
   labels:
     app: contosopos
@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
         - name: contosopos
-          image: azurearcjumpstart.azurecr.io/contoso-supermarket:latest
+          image: bcacr.azurecr.io/contosoapp:latest
           env:
             - name: SQL_HOST
               value: ""
