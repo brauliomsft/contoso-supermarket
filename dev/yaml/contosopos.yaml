@@ -48,11 +48,11 @@ spec:
             - name: HEAD_TITLE
               value : "Contoso Supermarket"
             - name: CAMERAS_ENABLED
-              value: "True"
+              value: "False"
             - name: CAMERAS_BASEURL
               value: ""
             - name: NEW_CATEGORY
-              value: "True"
+              value: "False"
           ports:
             - containerPort: 5000
           imagePullSecrets:
