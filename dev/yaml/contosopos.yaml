@@ -46,9 +46,9 @@ spec:
             - name: SQL_DATABASE
               value: ""
             - name: HEAD_TITLE
-              value : "Tiendas Coppel"
+              value : "Contoso Supermarket"
             - name: CAMERAS_ENABLED
-              value: "False"
+              value: "True"
             - name: CAMERAS_BASEURL
               value: ""
             - name: NEW_CATEGORY
