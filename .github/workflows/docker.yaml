@@ -26,5 +26,5 @@ jobs:
           push: true
           build-args: |
             version=0.0.1
-          tags: user/contosoapp:latest
+          tags: ${{ secrets.ACR_ENDPOINT }}/${{ env.IMAGE_NAME }}:latest
           
