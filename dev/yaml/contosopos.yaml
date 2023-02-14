@@ -46,7 +46,7 @@ spec:
             - name: SQL_DATABASE
               value: ""
             - name: HEAD_TITLE
-              value : "Contoso Supermarket"
+              value : "Superama"
             - name: CAMERAS_ENABLED
               value: "False"
             - name: CAMERAS_BASEURL
