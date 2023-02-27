@@ -28,7 +28,7 @@ spec:
         - name: DBENABLED
           value: "True"
         - name: SEASON
-          value: default
+          value: "Winter"
         - name: DBUSER
           value: root
         - name: DBSECRET
