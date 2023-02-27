@@ -19,15 +19,15 @@ spec:
         - containerPort: 5000
         env:
         - name: DBHOST
-          value: my-db
+          value: "my-db"
         - name: DBNAME
-          value: fourthcoffeedb
+          value: "fourthcoffeedb"
         - name: HEAD_TITLE
           value: "Fourth Coffee"
         - name: DBENABLED
-          value: True
+          value: "True"
         - name: SEASON
-          value: default
+          value: "default"
         - name: DBUSER
           value: root
         - name: DBSECRET
