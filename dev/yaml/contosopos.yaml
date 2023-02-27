@@ -24,7 +24,7 @@ spec:
         - name: DBNAME
           value: fourthcoffeedb
         - name: HEAD_TITLE
-          value: "Fourth Coffee"
+          value: "El Jarocho"
         - name: DBENABLED
           value: "True"
         - name: SEASON
