@@ -58,6 +58,6 @@ spec:
             - name: STORE_LOCATION
               value: "Redmond"
             - name: HOLIDAY_BANNER
-              value: "True"
+              value: "False"
           ports:
             - containerPort: 5000
