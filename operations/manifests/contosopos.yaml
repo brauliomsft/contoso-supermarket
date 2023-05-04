@@ -54,9 +54,9 @@ spec:
             - name: NEW_CATEGORY
               value: "True"
             - name: STORE_ID
-              value: "1"
+              value: "2"
             - name: STORE_LOCATION
-              value: "Seattle"
+              value: "Redmond"
             - name: HOLIDAY_BANNER
               value: "False"
           ports:
