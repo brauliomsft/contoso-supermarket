@@ -4,7 +4,7 @@ metadata:
   name: init-db-sql-file
   namespace: contoso
 data:
-  initDB.sql: "./initdb.sql"
+  initDB.sql: "initdb.sql"
 ---
 apiVersion: batch/v1
 kind: Job
