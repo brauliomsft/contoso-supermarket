@@ -18,7 +18,7 @@ spec:
     spec:
       chart: ./contoso_supermarket/operations/contoso_supermarket/charts/contosopos
   values:
-    acr_name: agacrc7416
+    acr_name: contosoapps
     branch_name: "dev"
     image_tag: v1.0
     github_User: brauliomsft
@@ -30,7 +30,7 @@ spec:
     cosmos:
       container: "pos"
       database: "contoso"
-      endpoint: https://agcosmosc7416.documents.azure.com:443/
+      endpoint: https://contosoorders.documents.azure.com:443/
     point_of_sale:
       title: "Contoso Supermarket"
       new_category: "True"

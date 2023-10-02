@@ -18,7 +18,7 @@ spec:
     spec:
       chart: ./contoso_supermarket/operations/contoso_supermarket/charts/queue-monitoring-backend
   values:
-    acr_name: agacrc7416
+    acr_name: https://contosoorders.documents.azure.com:443/
     branch_name: "dev"
     image_tag: v1.0
     github_User: brauliomsft
