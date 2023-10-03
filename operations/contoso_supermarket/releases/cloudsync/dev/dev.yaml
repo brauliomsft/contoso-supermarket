@@ -16,7 +16,7 @@ spec:
       retries: 3
   chart:
     spec:
-      chart: ./contoso_supermarket/operations/contoso_supermarket/charts/cloudsync
+      chart: ./operations/contoso_supermarket/charts/cloudsync
   values:
     acr_name: contosoapps
     branch_name: "dev"
