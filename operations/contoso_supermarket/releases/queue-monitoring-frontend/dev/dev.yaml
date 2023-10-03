@@ -16,7 +16,7 @@ spec:
       retries: 3
   chart:
     spec:
-      chart: ./contoso_supermarket/operations/contoso_supermarket/charts/queue-monitoring-frontend
+      chart: ./operations/contoso_supermarket/charts/queue-monitoring-frontend
   values:
     acr_name: contosoappsacr
     branch_name: "dev"
